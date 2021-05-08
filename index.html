@@ -8,18 +8,22 @@
     </head>
     <body>
         <header>
-            <nav>
-                <a class="header-nav left" href="https://about.google/?fg=1&utm_source=google-CA&utm_medium=referral&utm_campaign=hp-header">About</a>
-                <a class="header-nav left" href="https://store.google.com/CA?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-CA">Store</a>
-                <a class="header-nav right" href="https://mail.google.com/mail/&ogbl">Gmail</a>
-                <a class="header-nav right" href="https://www.google.ca/imghp?hl=en&ogbl">Images</a>
-                <span class="header-nav right material-icons">apps</span>
-                <img class="header-nav right profile-pic" style="width: 100px;" src="images/profilepic.jpg" alt="User Profile Picture">
-            </nav>
+            <nav class="header">
+                <div class="header-left">
+                    <a class="left about" href="https://about.google/?fg=1&utm_source=google-CA&utm_medium=referral&utm_campaign=hp-header">About</a>
+                    <a class="left store" href="https://store.google.com/CA?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-CA">Store</a>
+                </div>
+                <div class="header-right">
+                    <a class="right-gmail" href="https://mail.google.com/mail/&ogbl">Gmail</a>
+                    <a class="right-images" href="https://www.google.ca/imghp?hl=en&ogbl">Images</a>
+                    <span class="right material-icons">apps</span>
+                    <img class="right profile-pic" style="width: 100px;" src="images/profilepic.jpg" alt="User Profile Picture">
+                </div>
+                </nav>
         </header>
-        <main>
-            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
-            <form action="https://google.com/search" method="get">
+        <main class="main">
+            <img class="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+            <form class="search" action="https://google.com/search" method="get">
                 <input type="text" name="q" autocomplete="on">
                 <input type="submit" value="Google Search">
                 <input type="submit" name="btnI" value="I'm Feeling Lucky">
